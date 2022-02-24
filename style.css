@@ -1,0 +1,161 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.focus-part{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+.focus{
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-left: 5px solid;
+    padding-left: 10px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, orange);
+}
+
+.mission-part{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#mission{
+    text-align: center;
+}
+
+.link-button-2{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, deeppink);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.half-width img{
+    width: 80%;
+    
+}
+.menu-items{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    text-align: justify;
+
+}
+.menu-items img{
+    width: 50%;
+}
+
+.develop-part{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: left;
+    left: 50px;
+}
+
+.develop-part img{
+    width: 80%;
+}
+
+.community-part{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right;
+    left: 50px;
+}
+
+.community-part img{
+    width: 80%;
+}
+
+.comment-part{
+    margin-top: 100px;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/pictures/project.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.comment-part h3{
+    color: whitesmoke;
+    font-size: 30px;
+    padding-top: 2%;
+}
+.comment-box{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#box{
+    padding: 100px;
+}
+#btn{
+    padding: 5px;
+    background-image: linear-gradient(orange, tomato);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+footer{
+    padding-top: 1px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 10px;
+}
+.white-color{
+    color: white;
+}
+#tomato-color{
+    color: tomato;
+}
